@@ -1,0 +1,71 @@
+body {
+  background-color: cornsilk;
+}
+
+ .chart-header {
+  text-align: center;
+  font-size: 2.75rem;
+}
+
+.change-button {
+  display: block;
+  margin: auto;
+  margin-bottom: 2em;
+  font-size: x-large;
+  font-weight: 500;
+  border: none;
+  background-color: #FF9A62;
+  padding: .5em 5em .5em .5em;
+}
+
+svg {
+  display: block;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.insights-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #476244;
+  padding-bottom: 3em;
+}
+
+#insights-header-first {
+  margin: 1.5em 0px .5em 1.5em; 
+  font-size: 3rem;
+  color: white;
+}
+
+#insights-header-second {
+  margin: 0 0 0 1.5em; 
+  font-size: 3rem;
+  color: white;
+}
+
+.insights-button {
+  margin: 2em 0 0 2.25em;
+  font-size: xx-large;
+  font-weight: 500;
+  border: none;
+  background-color: #FF9A62;
+  padding: .5em 5em .5em .5em;
+}
+
+img {
+  height: 300px;
+  width: 600px;
+  margin: auto;
+  margin-top: 2.5em;
+}
+
+.insights-left {
+  width: 50%;
+}
+
+.insights-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
